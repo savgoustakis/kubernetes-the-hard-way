@@ -111,10 +111,7 @@ for i in 0 1 2; do
     --scopes compute-rw,storage-ro,service-management,service-control,logging-write,monitoring \
     --subnet kubernetes \
     --tags kubernetes-the-hard-way,controller
-    --shielded-vtpm
-    --shielded-vmintegrity-monitoring
-    --shielded-vm-secure-boot
-done
+  done
 ```
 
 ### Kubernetes Workers
